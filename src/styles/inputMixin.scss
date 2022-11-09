@@ -1,0 +1,8 @@
+@mixin carditem {
+    .item{   
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #333; 
+        width: 67%;  
+    }
+}

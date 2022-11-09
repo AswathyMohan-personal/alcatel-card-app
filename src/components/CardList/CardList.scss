@@ -1,0 +1,23 @@
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0 10px 5px;
+  padding: 10px 40px;
+  .card-item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 23%;
+    margin: 0 0 15px 15px;
+    .button-delete {
+      float: right;
+      width: 10%;
+      .delete {
+        color: red;
+        border: none;
+        background-color: white;
+      }
+    }
+  }
+}
